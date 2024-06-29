@@ -1,0 +1,82 @@
+{
+    "colegas": [
+        {
+            "id": 0,
+            "nome": "Victor Scheneider",
+            "link": "https://github.com/victorschneider",
+            "foto": "https://avatars.githubusercontent.com/u/70334871?v=4"
+        },
+        {
+            "id": 1,
+            "nome": "Vitor Prates",
+            "link": "https://github.com/PratesVitor",
+            "foto": "https://avatars.githubusercontent.com/u/160742926?v=4"
+        },
+        {
+            "id": 2,
+            "nome": "Thiago Moreira",
+            "link": "https://github.com/Thiagotmq1",
+            "foto": "https://avatars.githubusercontent.com/u/164426728?v=4"
+        },
+        {
+            "id": 3,
+            "nome": "Cristiano Barbosa",
+            "link": "https://github.com/chdbarbosa",
+            "foto": "https://avatars.githubusercontent.com/u/75648916?v=4"
+        },
+        {
+            "id": 4,
+            "nome": "Fábio Cordeiro",
+            "link": "https://github.com/fabioled",
+            "foto": "https://avatars.githubusercontent.com/u/22921950?v=4"
+        }
+    ],
+    "noticias": [
+        {
+            "id": 0,
+            "descricao": "A Shopee possui em seu site e app um espaço dedicado para quem gosta de jogar, chamado Mundo Gamer. Na página Mundo Gamer, é possível explorar produtos de destaque, conferir pré-vendas e lançamentos, selecionar categorias específicas de produtos, navegar por marcas e mais, tudo para facilitar a vida de quem gosta de jogar com bons equipamentos. E atualmente há um cupom exclusivo para os produtos da página gamer da Shopee, que garante R$35 de desconto para compras acima de R$259! Selecione os produtos que você deseja e no carrinho de compras aplique o cupom MUNDOGAMER35 para receber o desconto!",
+            "url": "https://www.tecmundo.com.br/voxel/283213-mundo-gamer-shopee-ofertas-imperdiveis-cupom-r-35-desconto-veja-lista-sugestoes.htm",
+            "titulo": "Mundo Gamer Shopee: ofertas imperdíveis e cupom com R$ 35 de desconto; veja lista de sugestões",
+            "img": "https://tm.ibxk.com.br/2024/05/21/21122407402125.jpg?ims=704x264"
+        },
+        {
+            "id": 1,
+            "descricao": "O 1º Go Game Festival vai trazer nos dias 28, 29 e 30 de junho, para o Flamboyant Shopping, grandes nomes dos mundos gamer e geek do Brasil. Em destaque para o primeiro dia, o youtuber Rato Borrachudo. No dia 29, confirmada a presença do dublador Wendel Bezerra. Já para o dia 30, o youtuber Athos Gamer e o dublador Guilherme Brigs irão compartilhar suas experiências no evento inédito. Os ingressos para o Festival podem ser adquiridos através do site. A organização do Festival confirmou na última sexta-feira (19), a presença do dublador Wendel Bezerra, que se apresentará no palco principal do evento, no sábado (29), data em que se comemora o dia do profissional de dublagem. Wendel tem 40 anos de experiência, também é diretor de dublagem e deu voz a personagens icônicos como Bob Esponja,  Sonji de One Piece e Goku de Dragon Ball. O dublador é também, há 15 anos, a voz brasileira do ator Robert Pattinson, que deu vida ao vampiro Edward Cullen, na saga Crepúsculo e ‘The Batman (2021)’. ",
+            "url": "https://ohoje.com/noticia/cultura/n/1580550/t/encontro-com-dubladores-e-personalidades-do-mundo-gamer/",
+            "titulo": "Encontro com dubladores e personalidades do mundo gamer",
+            "img": "https://ohoje.com/public/imagens/fotos/amp/2024/04/13-MATERIA-CREDITOS-FT-1-Divulgacao--1024x655.jpeg"
+        },
+        {
+            "id": 2,
+            "descricao": "O Santander Universidades abriu as inscrições para a 5ª edição do Santander Coders. Em parceria com a Ada Tech, plataforma de educação impulsionada por tecnologia, o Banco vai conceder 60 mil bolsas para um curso digital introdutório para Front-end, Data Engineering, Data Science ou DevOps. Os 300 bolsistas que obtiverem melhor desempenho no processo seletivo terão acesso a uma formação completa em um dos cursos disponíveis. As inscrições vão até 19 de maio e podem ser feitas na plataforma Santander Open Academy. Não é necessário ser cliente do Banco para participar.",
+            "url": "https://santanderimprensa.com.br/santander-universidades-e-ada-tech-oferecem-60-mil-bolsas-para-curso-de-tecnologia/",
+            "titulo": "Santander Universidades e Ada Tech oferecem 60 mil bolsas para curso de tecnologia",
+            "img": "https://santanderimprensa.com.br/wp-content/uploads//2024/04/KV-SANTANDER-CODERS-860x390.jpg.webp"
+        },
+        {
+            "id": 3,
+            "descricao": "Estão abertas as inscrições para o curso gratuito de programador web, oferecido pelo Senac em Petrolina, no Sertão de Pernambuco. Ao todo, estão sendo oferecidas 25 vagas por meio do Programa Senac de Gratuidade (PSG). O interessados podem se inscrever até o dia 6 de março no site da instituição.",
+            "url": "https://estado.sc.gov.br/noticias/udesc-balneario-camboriu-abre-inscricoes-para-curso-de-desenvolvedor-web/",
+            "titulo": "Udesc Balneário Camboriú abre inscrições para curso de desenvolvedor web",
+            "img": "https://estado.sc.gov.br/noticias/wp-content/uploads/sites/3/2024/06/Curso_desenvolvedor_web__foto_Rafaela_Castanho.jpg"
+        },
+        {
+            "id": 4,
+            "descricao": "Até 12 de julho, jovens da região da Foz do Rio Itajaí podem se candidatar a uma vaga na 2ª edição do curso online de Desenvolvedor Web Full Stack, oferecido pelo Centro de Educação Superior da Foz do Itajaí (Cesfi), da Universidade do Estado de Santa Catarina (Udesc) em Balneário Camboriú.",
+            "url": "https://g1.globo.com/pe/petrolina-regiao/noticia/2024/02/29/senac-petrolina-abre-inscricoes-para-curso-gratuito-de-programador-web-com-25-vagas.ghtml",
+            "titulo": "Senac Petrolina abre inscrições para curso gratuito de programador web com 25 vagas",
+            "img": "https://s2-g1.glbimg.com/dqEugdv_q86MIJHZCIm5dfIfiWU=/0x0:1000x667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/a/A/M8p6BjQjqspP8AosDeDg/petrolina-nova-fachada-01.jpg"
+        }
+    ],
+    "redesSociais": [
+        {
+            "linkedin": "https://www.linkedin.com/in/luis-henrique-sampaio-vieira-030565216/"
+        },
+        {
+            "instagram": "https://www.instagram.com/sampaiooluis?igsh=MTNzYjZ3OGtrdm02bQ%3D%3D&utm_source=qr"
+        },
+        {
+            "facebook": "https://www.facebook.com/profile.php?id=100008570566233&mibextid=LQQJ4d"
+        }
+    ]
+}

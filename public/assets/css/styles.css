@@ -1,0 +1,245 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+}
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Espaçamento entre os ícones das redes sociais */
+#link-linkedin, #link-facebook, #link-instagram {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Estilo para o número de seguidores */
+#seguidores {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Carrossel */
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; /* Ajusta a imagem para cobrir toda a área do contêiner */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo mais escuro com transparência */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo geral para a página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.nav-link {
+    color: #f8f9fa !important;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.img-perfil{
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%; /* Torna a imagem redonda */
+}
+hr {
+    border-top: 2px solid #007bff;
+}
+
+footer {
+    background-color: #007bff;
+    color: #f8f9fa;
+}
+
+/* Estilo dos cards de repositórios */
+#repo-cards .card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+#repo-cards .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#repo-cards .card-text {
+    color: #6c757d;
+}
+
+/* Estilo dos cards de colegas */
+#colegas-cards .card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-width: 350px;
+}
+
+#colegas-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+#colegas-cards .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#colegas-cards .card-body {
+    padding: 20px;
+}
+
+#colegas-cards .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#colegas-cards .card-text {
+    color: #6c757d;
+}
+
+/* Botão para o link do repositorio */
+a.btn.btn-primary h4 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Ajuste de layout para a seção de informações */
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-left {
+    flex: 1;
+    max-width: 75%;
+}
+
+.info-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+/* Responsividade da imagem */
+.imagem {
+    margin-bottom: 20px;
+}
+
+/* Espaçamento entre os ícones das redes sociais */
+#link-linkedin, #link-facebook, #link-instagram {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Estilo para o número de seguidores */
+#seguidores {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+
+/* Ajustes de responsividade */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+    .navbar-nav {
+        display: none; /* Esconde os tópicos */
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        display: flex; /* Mostra os tópicos quando o menu hamburger é clicado */
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        background-color: #007bff; /* Cor de fundo do menu expandido */
+    }
+
+    .navbar-collapse.show .nav-link {
+        color: #f8f9fa !important; /* Cor do texto dos links */
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+    #colegas-cards .card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-left, .info-right {
+        max-width: 100%;
+        flex: 1;
+    }
+    .text-center.text-md-start {
+        text-align: center !important;
+    }
+    .d-flex.justify-content-center.justify-content-md-between {
+        justify-content: center !important;
+    }
+    .d-flex.justify-content-center.justify-content-md-start {
+        justify-content: center !important;
+    }
+    .carousel-inner img {
+        height: 400px;
+        width: 100%;
+    }
+    .carrossel{
+        min-width: 400px;
+    }
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
